@@ -123,34 +123,34 @@ class _DetailPageState extends State<DetailScreen> {
                           thickness: .3,
                           color: LightColor.grey,
                         ),
-                        // Row(
-                        //   children: <Widget>[
-                        //     ProgressWidget(
-                        //       value: model!.goodReviews,
-                        //       totalValue: 100,
-                        //       activeColor: LightColor.purpleExtraLight,
-                        //       backgroundColor: LightColor.grey.withOpacity(.3),
-                        //       title: "Good Review",
-                        //       durationTime: 500,
-                        //     ),
-                        //     ProgressWidget(
-                        //       value: model!.totalScore,
-                        //       totalValue: 100,
-                        //       activeColor: LightColor.purpleLight,
-                        //       backgroundColor: LightColor.grey.withOpacity(.3),
-                        //       title: "Total Score",
-                        //       durationTime: 300,
-                        //     ),
-                        //     ProgressWidget(
-                        //       value: model!.satisfaction,
-                        //       totalValue: 100,
-                        //       activeColor: LightColor.purple,
-                        //       backgroundColor: LightColor.grey.withOpacity(.3),
-                        //       title: "Satisfaction",
-                        //       durationTime: 800,
-                        //     ),
-                        //   ],
-                        // ),
+                        Row(
+                          children: <Widget>[
+                            ProgressWidget(
+                              value: model!.goodReviews,
+                              totalValue: 100,
+                              activeColor: LightColor.purpleExtraLight,
+                              backgroundColor: LightColor.grey.withOpacity(.3),
+                              title: "Good Review",
+                              durationTime: 500,
+                            ),
+                            ProgressWidget(
+                              value: model!.totalScore,
+                              totalValue: 100,
+                              activeColor: LightColor.purpleLight,
+                              backgroundColor: LightColor.grey.withOpacity(.3),
+                              title: "Total Score",
+                              durationTime: 300,
+                            ),
+                            ProgressWidget(
+                              value: model!.satisfaction,
+                              totalValue: 100,
+                              activeColor: LightColor.purple,
+                              backgroundColor: LightColor.grey.withOpacity(.3),
+                              title: "Satisfaction",
+                              durationTime: 800,
+                            ),
+                          ],
+                        ),
                         const Divider(
                           thickness: .3,
                           color: LightColor.grey,

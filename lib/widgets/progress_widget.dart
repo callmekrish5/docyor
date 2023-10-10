@@ -13,14 +13,14 @@ class ProgressWidget extends StatefulWidget {
   final String title;
   final durationTime;
   const ProgressWidget({
- required   Key key,
+//  required   Key key,
    required this.value,
     this.totalValue = 100,
   required  this.activeColor,
   required  this.backgroundColor,
    required this.title,
     this.durationTime,
-  }) : super(key: key);
+  });
 
   @override
   _ProgressWidgetState createState() => _ProgressWidgetState();

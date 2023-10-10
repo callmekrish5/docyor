@@ -9,12 +9,7 @@ import '../theme/light_color.dart';
 import '../theme/text_styles.dart';
 import '../theme/theme.dart';
 
-/*
-Title:HomePageScreen
-Purpose:HomePageScreen
-Created By:Kalpesh Khandla
-Created Date: 30 April 2021
-*/
+
 
 class HomePageScreen extends StatefulWidget {
   const HomePageScreen({super.key});

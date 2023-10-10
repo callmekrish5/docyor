@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
       title: 'Health Care App',
       theme:AppTheme.lightTheme,
       routes: Routes.getRoute(),
-        // onGenerateRoute: (settings) => Routes.onGenerateRoute(settings),
-        home: const HomePageScreen(),
+        onGenerateRoute: (settings) => Routes.onGenerateRoute(settings),
+        // home: const HomePageScreen(),
      
     );
   }
